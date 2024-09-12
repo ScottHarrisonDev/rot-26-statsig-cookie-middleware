@@ -1,7 +1,7 @@
 import { parse } from "cookie"
 
 export interface Env {
-  API_URL: string
+  SITE_URL: string
 }
 
 const USER_COOKIE_NAME = 'userUUID'
